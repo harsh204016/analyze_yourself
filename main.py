@@ -55,7 +55,7 @@ if file:
  
             st.table(data.describe().T)
             # st.text("Description of Object Columns")
-            st.markdown('<h4 style="text-align: center; color: darkolivegreen;">Description of Numerical Columns</h1>',unsafe_allow_html=True)
+            st.markdown('<h4 style="text-align: center; color: darkolivegreen;">Description of Categorical Columns</h1>',unsafe_allow_html=True)
  
             st.table(data.describe(include="object").T)
 
