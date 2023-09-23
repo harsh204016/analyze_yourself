@@ -9,7 +9,7 @@ pd.options.display.max_rows = 500
 pd.set_option("display.max.columns", None)
 
 
-st.markdown("<h1 style='text-align:center; color:orange'>Analyze your Data YourSelf</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center; color:orange'>Analyze your Tabular Data YourSelf</h1>",unsafe_allow_html=True)
 st.text("\n")
 
 #make uploader empty after file upload
