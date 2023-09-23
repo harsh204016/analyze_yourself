@@ -14,8 +14,7 @@ st.text("\n")
 
 #make uploader empty after file upload
 holder = st.sidebar.empty()
-file = holder.file_uploader("")
-
+file = holder.file_uploader("Upload only csv file for now")
 
 
 
