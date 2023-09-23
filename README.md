@@ -5,4 +5,4 @@
 - Description
 - Charts
 
-  [WebApp](https://evaluate-your-data.streamlit.app/)
+  Please try this app, give your valuable feedback on [WebApp](https://evaluate-your-data.streamlit.app/)
