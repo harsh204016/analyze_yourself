@@ -1,6 +1,6 @@
-# evaluate your data yourself
+# evaluate your tabular data yourself
 
-## In this repository I had build a simple web app to examine your data , it will showcase
+## I had build a simple web app to examine your data easily, it will showcase
 - Data
 - Description
 - Charts
