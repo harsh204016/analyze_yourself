@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as pl
 
 
-
 pd.set_option("display.precision", 2)
 pd.options.display.max_rows = 500
 pd.set_option("display.max.columns", None)
@@ -14,8 +13,7 @@ st.text("\n")
 
 #make uploader empty after file upload
 holder = st.sidebar.empty()
-file = holder.file_uploader("Upload only csv file for now")
-
+file = holder.file_uploader("Upload only csv file")
 
 
 if file:
@@ -35,7 +33,7 @@ if file:
         cat_columns = list(data.select_dtypes(include=["object"]).columns)
         numerical_columns = list(data.select_dtypes(exclude=["object"]).columns)
         
-        tab1 , tab2 , tab3 , tab4 = st.tabs(["Data Head","Data Description","View Charts","Time Series"])
+        tab1 , tab2 , tab3  = st.tabs(["Data Head","Data Description","View Charts"])
     
         with tab1:
             data = original_data.copy()
